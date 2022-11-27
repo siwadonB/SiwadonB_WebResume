@@ -1,0 +1,46 @@
+.edutitle{
+text-align: center;
+font-size: calc(12px + 2vmin);
+font-family: 'Courier';
+padding:3rem 0 0 0;
+}
+.edumerce{
+text-align: center;
+padding:2rem 0 0 0
+}
+.mainedu{
+
+    font-size: calc(6px + 2vmin);
+    font-family: 'Courier';
+}
+.subedu{
+    display: inline-block;
+    font-size: calc(3px + 2vmin);
+    font-family: 'Courier';
+    color: rgba(0, 0, 0, 0.552);
+}
+.programtitle{
+    padding:2rem 0 0 0;
+    text-align: center;
+    font-size: calc(6px + 2vmin);
+    font-family: 'Courier';
+}
+.programcontent{
+    padding:2rem 0 0 0;
+    text-align: center;
+    font-size: calc(3px + 2vmin);
+    font-family: 'Courier';
+    color: rgba(0, 0, 0, 0.552);
+}
+.toeic{
+    text-align: center;
+}
+.toeicpic{
+    width:65%;
+    padding-left: 17%;
+}
+.topic{
+width: 11%;
+line-height: 1.22;
+vertical-align:bottom;
+}

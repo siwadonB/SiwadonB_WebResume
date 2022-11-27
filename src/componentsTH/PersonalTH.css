@@ -1,0 +1,93 @@
+.containerCon {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding:5%;
+    width: 88%;
+    border-radius:25px;
+    padding: 5%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.com{
+    width: 100%;
+  }
+  .Per{
+    line-height: 1.22;
+    vertical-align:bottom;
+    width: 5% ;
+}
+.pertitle{
+    text-align: center;
+    font-size: calc(14px + 2vmin);
+    font-family: 'Courier';
+    padding:2rem 0 0 0;
+}
+
+.content-con {
+    display: flex;
+}
+.content-con:first-child, .content-con:last-child {
+    padding: 5rem 0;
+}
+.content-l img {
+    width: 250px;
+    border-radius:50%;
+}
+.content-r {
+    padding: 2rem;
+    text-align: left;
+}
+.nametitle{
+    font-size: calc(12px + 2vmin);
+    font-family: 'Courier';
+}
+.namecontent{
+    font-size: calc(6px + 2vmin);
+    font-family: 'Courier';
+    color: rgba(0, 0, 0, 0.552);
+}
+.personal-l{
+    padding: 1.5rem;
+    text-align: center;
+}
+.personal-r{
+    text-align: center;
+
+}
+.titlecontact{
+    font-size: calc(12px + 2vmin);
+    font-family: 'Courier';
+    padding-left: 5rem;
+   
+}
+.subcontact{
+    font-size: calc(6px + 2vmin);
+    font-family: 'Courier';
+    color: rgba(0, 0, 0, 0.552);
+    padding-left: 5rem;
+}
+hr{
+    width: 80%;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .content-con {
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-per {
+        flex-direction: column;
+    }
+    .content-edu{
+        flex-direction: column; 
+    }.content-skill{
+        flex-direction: column;  
+    }
+}

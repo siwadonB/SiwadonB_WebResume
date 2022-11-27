@@ -1,0 +1,57 @@
+.skillcontent{
+    text-align: center;
+    font-size: calc(4px + 2vmin);
+    font-family: 'Courier';
+    color: rgba(0, 0, 0, 0.552);
+    padding-top: 3rem;
+}
+.tools{
+    font-size: calc(6px + 2vmin);
+    font-family: 'Courier';
+    padding-top: 3rem;
+    text-align: center;
+}
+.usetitle{
+    font-size: calc(10px + 2vmin);
+    font-family: 'Courier';
+    padding-top: 4rem;
+    text-align: center;
+}
+.oldio{
+width: 40%;
+}
+.oldan{
+width: 40%; 
+}
+.skill-p {
+    text-align: center;
+}
+.codename{
+    font-size: calc(8px + 2vmin);
+    font-family: 'Courier';
+    text-align: center;
+    color: #333;
+}
+.footer{
+    padding-top: 3rem;
+}
+.End{
+    padding-top: 1rem;
+    font-size: calc(6px + 2vmin);
+    font-family: 'Courier';
+    text-align: left;
+}
+.contact_footer{
+display: inline-block;
+padding-top: 1rem;
+font-size: calc(10px + 2vmin);
+font-family: 'Courier';
+color: #333;
+text-align: center;
+}
+.subfooter{
+display: inline-block;
+font-size: calc(4px + 2vmin);
+font-family: 'Courier';
+color: rgba(0, 0, 0, 0.552);
+}
