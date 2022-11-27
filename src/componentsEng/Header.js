@@ -19,7 +19,7 @@ function Header() {
             <div className="container">
                 <div className="header-con">
                     <div className="logo-container">
-                        <a href="#">Siwadon's Resume<img src={cv} className="cv" alt="logo"></img></a>
+                        <div className='title'>Siwadon's Resume<img src={cv} className="cv" alt="logo"></img></div>
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
                         <li className="menu-link" onClick={closeMobileMenu}>

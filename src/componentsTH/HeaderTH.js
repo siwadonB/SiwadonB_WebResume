@@ -18,7 +18,7 @@ function HeaderTH() {
             <div className="container">
                 <div className="header-con">
                     <div className="logo-container">
-                        <a href="#">Siwadon's Resume</a>
+                        <div className='title'>Siwadon's Resume</div>
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
                         <li className="menu-link" onClick={closeMobileMenu}>
