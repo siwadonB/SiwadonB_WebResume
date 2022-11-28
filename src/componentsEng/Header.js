@@ -23,16 +23,16 @@ function Header() {
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
                         <li className="menu-link" onClick={closeMobileMenu}>
-                        <AnchorLink className='headerfont' href="#PersonalPage">Personal information</AnchorLink>
+                        <AnchorLink className='headerfont' href="#PersonalPage">Personal infomation</AnchorLink>
                         </li>
                         <li className="menu-link" onClick={closeMobileMenu}>
                         <AnchorLink className='headerfont' href="#EducationPage">My Education</AnchorLink>
                         </li>
                         <li className="menu-link" onClick={closeMobileMenu}>
-                        <AnchorLink className='headerfont' href="#SkillPage">Skill & Code Example</AnchorLink>
+                        <AnchorLink className='headerfont' href="#SkillPage">Code Example</AnchorLink>
                         </li>
                         <li className="menu-link" onClick={closeMobileMenu}>
-                        <Link to="/th" className="changEng">เปลี่ยนเป็นภาษาไทย <img src={thai} className="th" alt="logo"></img></Link></li>
+                        <Link to="/th" className="changEng">เปลี่ยนภาษาไทย <img src={thai} className="th" alt="logo"></img></Link></li>
                     </ul>
                     <div className="mobile-menu" onClick={handleClick}>
                         {click ? (

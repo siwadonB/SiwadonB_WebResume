@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FiMenu, FiX } from "react-icons/fi";
 import './HeaderTH.css'
+import cv from "../Image/cv.png";
 import us from "../Image/us.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link } from "react-router-dom";
@@ -18,7 +19,7 @@ function HeaderTH() {
             <div className="container">
                 <div className="header-con">
                     <div className="logo-container">
-                        <div className='title'>Siwadon's Resume</div>
+                        <div className='title'>Siwadon's Resume<img src={cv} className="cv" alt="logo"></img></div>
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
                         <li className="menu-link" onClick={closeMobileMenu}>
@@ -31,7 +32,7 @@ function HeaderTH() {
                         <AnchorLink className='headerfont' href="#SkillPage">ทักษะและโค๊ดตัวอย่าง</AnchorLink>
                         </li>
                         <li className="menu-link" onClick={closeMobileMenu}>
-                        <Link to="/" className="changEng">English language <img src={us} className="cv" alt="logo"></img></Link>
+                        <Link to="/" className="changEng">Change to english language <img src={us} className="cv" alt="logo"></img></Link>
             </li>
                     </ul>
                     <div className="mobile-menu" onClick={handleClick}>
